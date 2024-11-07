@@ -75,3 +75,15 @@ INSERT INTO categorías (ID_Categoria, Categoria) VALUES
 (8, 'Misterio'), 
 (9, 'Infantil'), 
 (10, 'Cómics');
+
+INSERT INTO autores (ID_Autor, Nombre, Nacionalidad, Fecha_Nacimiento) VALUES 
+(1, 'Gabriel García Márquez', 'Colombiana', '1927-03-06'), 
+(2, 'Isabel Allende', 'Chilena', '1942-08-02'), 
+(3, 'Julio Cortázar', 'Argentina', '1914-08-26'), 
+(4, 'Mario Vargas Llosa', 'Peruana', '1936-03-28'), 
+(5, 'J.K. Rowling', 'Británica', '1965-07-31'), 
+(6, 'Stephen King', 'Estadounidense', '1947-09-21'), 
+(7, 'George R.R. Martin', 'Estadounidense', '1948-09-20'), 
+(8, 'Haruki Murakami', 'Japonesa', '1949-01-12'), 
+(9, 'J.R.R. Tolkien', 'Británica', '1892-01-03'), 
+(10, 'Agatha Christie', 'Británica', '1890-09-15');
