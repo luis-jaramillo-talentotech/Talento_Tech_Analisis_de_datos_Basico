@@ -51,3 +51,15 @@ CREATE TABLE prestamos_usuarios (
   FOREIGN KEY (ID_Prestamo) REFERENCES prestamos (ID_Prestamo),
   FOREIGN KEY (ID_Usuario) REFERENCES usuarios (ID_Usuario)
 );
+
+INSERT INTO usuarios (ID_Usuario, Nombre, Direccion, Telefono) VALUES 
+(1, 'Juan Pérez', 'Calle 123', 1234567890), 
+(2, 'María Gómez', 'Avenida 456', 2345678901), 
+(3, 'Carlos Martínez', 'Boulevard 789', 3456789012), 
+(4, 'Ana Rodríguez', 'Calle 101', 4567890123), 
+(5, 'Luis López', 'Calle 202', 5678901234), 
+(6, 'Patricia Ramírez', 'Avenida 303', 6789012345), 
+(7, 'José Sánchez', 'Calle 404', 7890123456), 
+(8, 'Laura Castillo', 'Avenida 505', 8901234567), 
+(9, 'Andrés Morales', 'Calle 606', 9012345678), 
+(10, 'Sofía Torres', 'Avenida 707', 1234509876);
