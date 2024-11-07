@@ -99,3 +99,15 @@ INSERT INTO libros (ID_Libro, Titulo, ID_Autor, ID_Categoria, Año_Publicacion, 
 (8, 'Kafka en la orilla', 8, 3, 2002, 1), 
 (9, 'El señor de los anillos', 9, 6, 1954, 1), 
 (10, 'Asesinato en el Orient Express', 10, 8, 1934, 1);
+
+INSERT INTO prestamos (ID_Prestamo, ID_Libro, Fecha_Prestamo, Fecha_Devolucion) VALUES 
+(1, 1, '2024-01-01', '2024-01-15'), 
+(2, 2, '2024-01-03', '2024-01-17'), 
+(3, 3, '2024-01-05', '2024-01-20'), 
+(4, 4, '2024-01-07', '2024-01-22'), 
+(5, 5, '2024-01-10', '2024-01-24'), 
+(6, 6, '2024-01-12', '2024-01-26'), 
+(7, 7, '2024-01-15', '2024-01-29'), 
+(8, 8, '2024-01-18', '2024-02-01'), 
+(9, 9, '2024-01-20', '2024-02-03'), 
+(10, 10, '2024-01-22', '2024-02-05');
