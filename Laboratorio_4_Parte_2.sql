@@ -111,3 +111,15 @@ INSERT INTO prestamos (ID_Prestamo, ID_Libro, Fecha_Prestamo, Fecha_Devolucion) 
 (8, 8, '2024-01-18', '2024-02-01'), 
 (9, 9, '2024-01-20', '2024-02-03'), 
 (10, 10, '2024-01-22', '2024-02-05');
+
+INSERT INTO prestamos_usuarios (ID_Prestamo, ID_Usuario) VALUES 
+(1, 1), 
+(2, 2), 
+(3, 3), 
+(4, 4), 
+(5, 5), 
+(6, 6), 
+(7, 7), 
+(8, 8), 
+(9, 9), 
+(10, 10);
