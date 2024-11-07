@@ -44,3 +44,10 @@ CREATE TABLE usuarios (
   Telefono VARCHAR(20) NOT NULL,
   PRIMARY KEY (ID_Usuario)
 );
+
+CREATE TABLE prestamos_usuarios (
+  ID_Prestamo INT(11) NOT NULL,
+  ID_Usuario INT(11) NOT NULL,
+  FOREIGN KEY (ID_Prestamo) REFERENCES prestamos (ID_Prestamo),
+  FOREIGN KEY (ID_Usuario) REFERENCES usuarios (ID_Usuario)
+);
