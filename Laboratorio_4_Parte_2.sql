@@ -15,3 +15,15 @@ CREATE TABLE categorías (
     Categoria VARCHAR(50) NOT NULL,
     PRIMARY KEY (ID_Categoria)
 );
+
+CREATE TABLE libros (
+    ID_Libro INT(11) NOT NULL AUTO_INCREMENT,
+    Titulo VARCHAR(100) NOT NULL,
+    ID_Autor INT(11) NOT NULL,
+    ID_Categoria INT(11) NOT NULL,
+    Año_Publicacion INT(4) NOT NULL,
+    Disponible TINYINT(1) NOT NULL,
+    PRIMARY KEY (ID_Libro),
+    FOREIGN KEY (ID_Autor) REFERENCES autores (ID_Autor),
+    FOREIGN KEY (ID_Categoria) REFERENCES categorías (ID_Categoria)
+);
