@@ -27,3 +27,12 @@ CREATE TABLE libros (
     FOREIGN KEY (ID_Autor) REFERENCES autores (ID_Autor),
     FOREIGN KEY (ID_Categoria) REFERENCES categorías (ID_Categoria)
 );
+
+CREATE TABLE prestamos (
+    ID_Prestamo INT(11) NOT NULL AUTO_INCREMENT,
+    ID_Libro INT(11) NOT NULL,
+    Fecha_Prestamo DATE NOT NULL,
+    Fecha_Devolucion DATE NOT NULL,
+    PRIMARY KEY (ID_Prestamo),
+    FOREIGN KEY (ID_Libro) REFERENCES libros (ID_Libro)
+);
