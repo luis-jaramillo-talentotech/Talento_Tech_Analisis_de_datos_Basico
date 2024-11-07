@@ -15,3 +15,10 @@ CREATE TABLE estudiantes (
     Direccion VARCHAR(100) NOT NULL,
     PRIMARY KEY (ID_Estudiante)
 );
+
+CREATE TABLE inscripciones (
+    ID_Estudiante INT(11) NOT NULL,
+    ID_cursos INT(11) NOT NULL,
+    FOREIGN KEY (ID_cursos) REFERENCES cursos (ID_cursos),
+    FOREIGN KEY (ID_Estudiante) REFERENCES estudiantes (ID_Estudiante)
+);
