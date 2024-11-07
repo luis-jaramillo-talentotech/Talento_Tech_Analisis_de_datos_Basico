@@ -36,3 +36,11 @@ CREATE TABLE prestamos (
     PRIMARY KEY (ID_Prestamo),
     FOREIGN KEY (ID_Libro) REFERENCES libros (ID_Libro)
 );
+
+CREATE TABLE usuarios (
+  ID_Usuario INT(11) NOT NULL AUTO_INCREMENT,
+  Nombre VARCHAR(100) NOT NULL,
+  Direccion VARCHAR(100) NOT NULL,
+  Telefono VARCHAR(20) NOT NULL,
+  PRIMARY KEY (ID_Usuario)
+);
