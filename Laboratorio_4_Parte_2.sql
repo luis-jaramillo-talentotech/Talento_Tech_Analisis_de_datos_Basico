@@ -9,3 +9,9 @@ CREATE TABLE autores (
     Fecha_Nacimiento DATE NOT NULL,
     PRIMARY KEY (ID_Autor)
 );
+
+CREATE TABLE categorías (
+    ID_Categoria INT(11) NOT NULL AUTO_INCREMENT,
+    Categoria VARCHAR(50) NOT NULL,
+    PRIMARY KEY (ID_Categoria)
+);
