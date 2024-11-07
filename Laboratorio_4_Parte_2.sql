@@ -87,3 +87,15 @@ INSERT INTO autores (ID_Autor, Nombre, Nacionalidad, Fecha_Nacimiento) VALUES
 (8, 'Haruki Murakami', 'Japonesa', '1949-01-12'), 
 (9, 'J.R.R. Tolkien', 'Británica', '1892-01-03'), 
 (10, 'Agatha Christie', 'Británica', '1890-09-15');
+
+INSERT INTO libros (ID_Libro, Titulo, ID_Autor, ID_Categoria, Año_Publicacion, Disponible) VALUES 
+(1, 'Cien años de soledad', 1, 1, 1967, 1), 
+(2, 'La casa de los espíritus', 2, 1, 1982, 1), 
+(3, 'Rayuela', 3, 1, 1963, 1),
+(4, 'La ciudad y los perros', 4, 4, 1962, 1), 
+(5, 'Harry Potter y la piedra filosofal', 5, 6, 1997, 1), 
+(6, 'El resplandor', 6, 8, 1977, 1), 
+(7, 'Juego de tronos', 7, 6, 1996, 1), 
+(8, 'Kafka en la orilla', 8, 3, 2002, 1), 
+(9, 'El señor de los anillos', 9, 6, 1954, 1), 
+(10, 'Asesinato en el Orient Express', 10, 8, 1934, 1);
