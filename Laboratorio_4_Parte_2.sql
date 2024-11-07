@@ -63,3 +63,15 @@ INSERT INTO usuarios (ID_Usuario, Nombre, Direccion, Telefono) VALUES
 (8, 'Laura Castillo', 'Avenida 505', 8901234567), 
 (9, 'Andrés Morales', 'Calle 606', 9012345678), 
 (10, 'Sofía Torres', 'Avenida 707', 1234509876);
+
+INSERT INTO categorías (ID_Categoria, Categoria) VALUES 
+(1, 'Ficción'), 
+(2, 'No Ficción'), 
+(3, 'Ciencia'), 
+(4, 'Historia'), 
+(5, 'Biografía'), 
+(6, 'Fantasía'), 
+(7, 'Autoayuda'), 
+(8, 'Misterio'), 
+(9, 'Infantil'), 
+(10, 'Cómics');
