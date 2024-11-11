@@ -17,3 +17,7 @@ DELETE FROM libros WHERE Titulo = 'Kafka en la orilla';
 ---2.1.
 
 SELECT * FROM libros ;
+
+---2.2.
+
+SELECT Nombre FROM autores;
