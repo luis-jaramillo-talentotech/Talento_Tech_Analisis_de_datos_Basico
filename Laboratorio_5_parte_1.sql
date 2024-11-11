@@ -43,3 +43,8 @@ INSERT INTO empleados (nombre, id_cargo, salario) VALUES
 ---2.
 
 SELECT * FROM empleados;
+
+---3.
+---3.1.
+
+SELECT nombre_cargo FROM cargo;
