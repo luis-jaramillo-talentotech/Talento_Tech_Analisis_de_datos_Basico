@@ -21,3 +21,7 @@ SELECT * FROM libros ;
 ---2.2.
 
 SELECT Nombre FROM autores;
+
+---2.3.
+
+SELECT * FROM libros WHERE ID_Autor = 1;
