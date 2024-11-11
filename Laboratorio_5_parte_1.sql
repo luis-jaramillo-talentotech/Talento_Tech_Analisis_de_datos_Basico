@@ -64,3 +64,8 @@ DELETE FROM empleados WHERE nombre = 'Ana Gómez';
 ---3.5.
 
 SELECT * FROM empleados WHERE cargo = 'Desarrollador';
+
+---3.6.
+
+INSERT INTO empleados (nombre, id_cargo, salario) VALUES
+('Marta López', 4, 3000000);
