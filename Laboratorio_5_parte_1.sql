@@ -39,3 +39,7 @@ INSERT INTO empleados (nombre, id_cargo, salario) VALUES
 ('Sofía Mendoza', 3, 3500000),
 ('José López', 4, 2000000),
 ('Laura Díaz', 5, 2500000);
+
+---2.
+
+SELECT * FROM empleados;
