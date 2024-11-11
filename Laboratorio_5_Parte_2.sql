@@ -25,3 +25,7 @@ SELECT Nombre FROM autores;
 ---2.3.
 
 SELECT * FROM libros WHERE ID_Autor = 1;
+
+---2.4.
+
+SELECT * FROM `prestamos` WHERE MONTH(Fecha_Devolucion) = 8 AND YEAR(Fecha_Devolucion) = 2024;
