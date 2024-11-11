@@ -56,3 +56,7 @@ SELECT nombre FROM empleados WHERE salario > 7000000;
 ---3.3.
 
 UPDATE empleados SET salario = 6500000 WHERE nombre = 'Fernando Ruiz';
+
+---3.4.
+
+DELETE FROM empleados WHERE nombre = 'Ana Gómez';
