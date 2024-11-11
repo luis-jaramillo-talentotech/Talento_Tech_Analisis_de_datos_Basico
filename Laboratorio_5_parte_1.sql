@@ -52,3 +52,7 @@ SELECT nombre_cargo FROM cargo;
 ---3.2.
 
 SELECT nombre FROM empleados WHERE salario > 7000000;
+
+---3.3.
+
+UPDATE empleados SET salario = 6500000 WHERE nombre = 'Fernando Ruiz';
