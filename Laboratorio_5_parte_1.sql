@@ -48,3 +48,7 @@ SELECT * FROM empleados;
 ---3.1.
 
 SELECT nombre_cargo FROM cargo;
+
+---3.2.
+
+SELECT nombre FROM empleados WHERE salario > 7000000;
